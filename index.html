@@ -1,40 +1,42 @@
+
 <!DOCTYPE html>
 <html>
-<head lang="uk">
-    <meta charset="UTF-8">
+<head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="main.css">
     <title>HW_1</title>
-    <link rel="stylesheet" type="text/css" href="main.css" />
 </head>
 <body>
 <div class="block">
     <div class="block_1">
         <form action="/" method="post">
             <fieldset class="list">
-                <input type="text" value=""placeholder="Назва товару" id="product">
+                <input type="text" value=""placeholder="Назва товару"
+                       id="product">
                 <input type="button" value="Додати" id="add">
             </fieldset>
             <fieldset class="list">
-                <input type="text" value="Помідори">
-                <button type="button" class="widget__add">-</button>
+                <input class="whant_to_buy" type="text" value="Помідори">
+                <button type="button" class="widget__add_minus">-</button>
                 <input type="number" name="quantity" id="quantity" value="1">
-                <button type="button" class="widget__add">+</button>
-                <input type="button" value="Куплено">
+                <button type="button" class="widget__add_plus">+</button>
+                <input class="bought" type="button" value="Куплено">
                 <button type="button" class="widget__add">х</button>
             </fieldset>
             <fieldset class="list">
-                <input type="text" value="Печиво">
-                <button type="button" class="widget__add">-</button>
+                <input class="whant_to_buy" type="text" value="Печиво">
+                <button type="button" class="widget__add_minus">-</button>
                 <input type="number" name="quantity" id="quantity" value="1">
-                <button type="button" class="widget__add">+</button>
-                <input type="button" value="Куплено">
+                <button type="button" class="widget__add_plus">+</button>
+                <input class="bought" type="button" value="Куплено">
                 <button type="button" class="widget__add">х</button>
             </fieldset>
             <fieldset class="list" id="list">
-                <input type="text" value="Сир">
-                <button type="button" class="widget__add">-</button>
+                <input class="whant_to_buy" type="text" value="Сир">
+                <button type="button" class="widget__add_minus">-</button>
                 <input type="number" name="quantity" id="quantity" value="1">
-                <button type="button" class="widget__add">+</button>
-                <input type="button" value="Куплено">
+                <button type="button" class="widget__add_plus">+</button>
+                <input class="bought" type="button" value="Куплено">
                 <button type="button" class="widget__add">х</button>
             </fieldset>
         </form>
@@ -45,7 +47,8 @@
                 <h2>Залишилося</h2>
             </fieldset>
             <fieldset class="products_to_buy" id="to_buy">
-                <span class="products_list" id="product_1">
+                <div>
+<span class="products_list" id="product_1">
 <span class="title">Помідори</span>
 <span class="orange_number">1</span>
 </span>
@@ -57,16 +60,16 @@
 <span class="title">Сир</span>
 <span class="orange_number">1</span>
 </span>
+                </div>
+            </fieldset>
+            <fieldset class="fieldset" id="to_buy">
+                <h2>Куплено</h2>
+            </fieldset>
+            <fieldset class="hidden" id="to buy">
+                <input type="hidden" name="hidden">
+            </fieldset>
+        </form>
     </div>
-    </fieldset>
-    <fieldset class="fieldset" id="to_buy">
-        <h2>Куплено</h2>
-    </fieldset>
-    <fieldset class="hidden" id="to buy">
-        <input type="hidden" name="hidden">
-    </fieldset>
-    </form>
-                <div>
 </div>
 </body>
 </html>
