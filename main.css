@@ -22,14 +22,12 @@ body{
     border-width: thin;
     border: hidden;
 }
-
 .list{
     border-left: hidden;
     border-right: hidden;
     border-top: hidden;
     border-color: #FFFAFA;
 }
-
 #list{
     border: hidden;
 }
