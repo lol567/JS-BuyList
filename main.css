@@ -1,3 +1,41 @@
-h1 {
-    color: blue;
+body{
+    background-color:#DADADA;
+}
+.block{
+    margin: 15px 0px 15px 0px;
+    padding: 100px 0px 0px 0px;
+    width: 723px;
+    height: 239px;
+}
+
+.block_1{
+    margin: auto;
+    box-shadow: 0px 0px 1px 1px #c4c4c4;
+    width: 488.313px;
+    height: auto;
+    box-sizing: border-box;
+    background-color: white;
+    font-family: Arial,Helvetica,sans-serif;
+    font-size: 14px;
+    line-height: 42px;
+    border-style: solid;
+    border-width: thin;
+    border: hidden;
+}
+
+.list{
+    border-left: hidden;
+    border-right: hidden;
+    border-top: hidden;
+    border-color: #FFFAFA;
+}
+
+#list{
+    border: hidden;
+}
+#add{
+    background-color: #2185D0;
+    font-size: 16px;
+    color: #FFF;
+    border: hidden;
 }
